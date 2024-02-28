@@ -1,13 +1,26 @@
 # FastAPI Poetry Example project
 
-How to run fast API server:
-uvicorn api:app --host 0.0.0.0 --port 8000 --reload
+How to run FastAPI server:
+```bash
+make run_server
+```
 
 How to generate requirements:
-poetry export -f requirements.txt --output requirements.txt
+```bash
+make generate_requirements
+```
 
 How to generate dev requirements:
-poetry export --dev -f requirements.txt --output requirements-dev.txt
+```bash
+make generate_dev_requirements
+```
 
 Run unit tests with coverage:
-pytest tests -x -vv --cov=. --cov-report=term-missing --cov-fail-under=95
+```bash
+make run_tests_with_coverage
+```
+
+Run an overall repo health check:
+```bash
+make push-check
+```
