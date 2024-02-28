@@ -177,3 +177,9 @@ local_data
 jwks_cache.json
 
 failed_features.json
+
+.ruff_cache
+
+.pytest_cache
+
+.coverage
