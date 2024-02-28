@@ -24,3 +24,28 @@ Run an overall repo health check:
 ```bash
 make push-check
 ```
+
+Run a synth for the CDK:
+```bash
+make synth_cdk
+```
+
+Deploy the CDK stacks:
+```bash
+make deploy_cdk
+```
+
+Login in to ECR to update image:
+```bash
+make aws_ecr_login
+```
+
+Update and push new version of Docker:
+```bash
+make update_lambda_docker
+```
+
+Update Lambda with latest Docker image:
+```bash
+make update_lambda_image
+```
