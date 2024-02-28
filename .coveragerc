@@ -1,0 +1,2 @@
+[run]
+omit = lambda_handler.py

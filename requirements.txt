@@ -19,6 +19,9 @@ h11==0.14.0 ; python_version >= "3.12" and python_version < "4.0" \
 idna==3.6 ; python_version >= "3.12" and python_version < "4.0" \
     --hash=sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca \
     --hash=sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f
+mangum==0.17.0 ; python_version >= "3.12" and python_version < "4.0" \
+    --hash=sha256:5b4e26375e12eed051687670466d17968f8b74beecaca432edd4eb4127f78509 \
+    --hash=sha256:f00be705605bc4793958df62e4d249abf58d254c39d90bb410d069570206f4a2
 pydantic-core==2.16.3 ; python_version >= "3.12" and python_version < "4.0" \
     --hash=sha256:00ee1c97b5364b84cb0bd82e9bbf645d5e2871fb8c58059d158412fee2d33d8a \
     --hash=sha256:0d32576b1de5a30d9a97f300cc6a3f4694c428d956adbc7e6e2f9cad279e45ed \

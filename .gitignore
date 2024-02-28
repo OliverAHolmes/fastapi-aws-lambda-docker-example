@@ -183,3 +183,5 @@ failed_features.json
 .pytest_cache
 
 .coverage
+
+cdk.json
