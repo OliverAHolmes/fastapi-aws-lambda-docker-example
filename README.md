@@ -8,3 +8,6 @@ poetry export -f requirements.txt --output requirements.txt
 
 How to generate dev requirements:
 poetry export --dev -f requirements.txt --output requirements-dev.txt
+
+Run unit tests with coverage:
+pytest tests -x -vv --cov=. --cov-report=term-missing --cov-fail-under=95
