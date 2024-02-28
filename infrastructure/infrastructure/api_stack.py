@@ -13,7 +13,7 @@ import datetime
 
 import os
 
-API_ECR_ARN = os.environ["API_ECR_ARN"]
+API_ECR_ARN = os.environ.get("API_ECR_ARN")
 
 
 class ApiStack(Stack):
